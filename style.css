@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#Tab1 {
+  border: outset 5px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Tab2 {
+  border: inset 5px blue;
+  display: grid;
+  justify-items: center;
+}
+
+.board {
+  border: dotted 4px orange;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 40vh;
+}
+
+#Tab1 section {
+  display: flex;
+  flex: 1;
+}
+
+#Tab1 section div {
+  border: dashed 1px black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#Tab2 section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 40vh;
+  width: 40vh;
+  border: double 4px orange;
+}
+
+#Tab2 section div {
+  border: groove 6px rgb(114, 77, 77);
+  display: grid;
+  place-content: center;
+}
